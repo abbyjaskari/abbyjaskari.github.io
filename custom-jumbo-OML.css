@@ -1,0 +1,28 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav, .jumbotron h1	{
+	font-family: "Arvo", serif;
+}
+
+.jumbotron	{
+	color:white;
+	background-image: url('../images/oml_background.png');
+	text-align: center;
+}	
+
+.jumbotron h1	{
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+}
+
+.btn-lg	{
+	font-size:36px;
+}
